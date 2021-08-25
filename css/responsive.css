@@ -24,6 +24,13 @@
         display: block;
         margin-top: 20px;
     }
+
+    .order-box{
+        margin-bottom: 20px;
+    }
+    .order-box:last-child{
+        margin-bottom: 0px;
+    }
     
 }
 /* Wide Mobile Layout: 480px. */

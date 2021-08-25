@@ -166,7 +166,7 @@ a:hover {
 /* header content area start here */
 
 .header-content-area {
-    padding: 140px 0 60px 0;
+    padding: 100px 0 60px 0;
     background-image: -webkit-gradient(linear, left bottom, left top, from(#5a3f7c79), to(#5a3f7c79)), url("image/headerBg.jpg");
     background-image: linear-gradient(0deg, #5a3f7c79, #5a3f7c79), url("image/headerBg.jpg");
     background-position: top center;
