@@ -1,0 +1,68 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .header-content-area {
+        padding: 140px 0 60px 0;
+        background-image: -webkit-gradient(linear, left bottom, left top, from(#5a3f7c79), to(#5a3f7c79)), url("image/headerBg.jpg");
+        background-image: linear-gradient(0deg, #5a3f7c79, #5a3f7c79), url("image/headerBg.jpg");
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+    .header-content-area .header-content-right .header-buying .btn-wrapper {
+        display: block;
+        margin-top: 20px;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
+
+
+/* Only for menu */
+@media only screen and (min-width:768px) {
+    .header {
+        padding: 20px 100px;
+    }
+    .header .logo img{
+        max-width: 160px;
+        margin: 0px;
+    }
+    .header .menu a {
+        all: unset;
+    }
+    .header .menu {
+        all: unset;
+        float: right;
+        padding-top: 10px;
+    }
+    .header ul li {
+        list-style: none;
+        display: inline-block;
+    }
+    .header ul li {
+        color: #000;
+        font-size: 18px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .header .menu a:hover {
+        background: transparent;
+    }
+    .header .menu-icon {
+        display: none;
+    }
+}
