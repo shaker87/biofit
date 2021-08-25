@@ -28,7 +28,7 @@
     .order-box{
         margin-bottom: 20px;
     }
-    .order-box:last-child{
+    .last-box{
         margin-bottom: 0px;
     }
     
