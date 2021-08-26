@@ -1,15 +1,14 @@
 /* Medium Layout: 1280px. */
-@media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
-    
-}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
 /* Tablet Layout: 768px. */
-@media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
-    
-}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
 /* Mobile Layout: 320px. */
-@media only screen and (max-width: 767px) { 
+
+@media only screen and (max-width: 767px) {
     .header-content-area {
         padding: 140px 0 60px 0;
         background-image: -webkit-gradient(linear, left bottom, left top, from(#5a3f7c79), to(#5a3f7c79)), url("image/headerBg.jpg");
@@ -24,27 +23,36 @@
         display: block;
         margin-top: 20px;
     }
-
-    .order-box{
+    .order-box {
         margin-bottom: 20px;
     }
-    .last-box{
+    .last-box {
         margin-bottom: 0px;
     }
-    
+    .where-to-buy .where-to-buy-content .buy-btn {
+        border: none;
+        border-radius: 5px;
+        padding: 15px 20px;
+        margin: 20px 0;
+        background: #f0a64f;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+    }
 }
+
 /* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
 
-}
-
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 /* Only for menu */
+
 @media only screen and (min-width:768px) {
     .header {
-        padding: 20px 100px;
+        padding: 10px 100px;
     }
-    .header .logo img{
+    .header .logo img {
         max-width: 160px;
         margin: 0px;
     }
@@ -54,7 +62,7 @@
     .header .menu {
         all: unset;
         float: right;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .header ul li {
         list-style: none;

@@ -10,9 +10,10 @@
 
     <link rel="icon" href="image/favicon.png">
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,800' rel='stylesheet' type='text/css'>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -29,10 +30,11 @@
             <span class="nav-icon"></span>
         </label>
         <ul class="menu">
+            <li><a href="#home">Home</a></li>
             <li><a href="#what-is-biofit">About</a></li>
             <li><a href="#how-works">How it Works?</a></li>
             <li><a href="#ingredients">Ingredients</a></li>
-            <li><a href="#order-now">Order Now</a></li>
+            <li><a  href="#order-now"><button class="order-now-btn">Order Now</button></a></li>
         </ul>
     </header>
     <main>
@@ -79,7 +81,7 @@
                                 <h3>Only for: <span>49$</span></h3>
 
                                 <div class="btn-wrapper">
-                                    <a class="btn"
+                                    <a class="btn animate__animated animate__swing animate__infinite animate__slow"
                                         href="https://www.review.nutrafreash.com/click/1?bemobdata=c%3D6ea43942-f241-45a5-a114-0d55bc268e5b..l%3Dd69184e7-a376-4fa2-8326-4a3d1afcdfcd..a%3D0..b%3D0..r%3Dhttps%253A%252F%252Fnutrafreash.com%252F"
                                         target="_blank"> Buy Now</a>
                                 </div>
@@ -126,36 +128,45 @@
                         </div>
                     </div>
                 </div>
- 
+
                 <div id="how-works">
-                    <div class="row" >
+                    <div class="row">
                         <div class="col-md-12">
                             <div class="how-suppliment-work">
                                 <h2>How Does Biofit Supplement Work?</h2>
-                                <p>Different weight loss supplements have varying approaches to how they help people lose
-                                    weight. BioFit pills contain all-natural ingredients with good bacteria to help balance
+                                <p>Different weight loss supplements have varying approaches to how they help people
+                                    lose
+                                    weight. BioFit pills contain all-natural ingredients with good bacteria to help
+                                    balance
                                     off processes in the body.</p>
                                 <p>The main reason your gut health is important in weight loss is because it controls
                                     digestion and metabolism. When your metabolism is slow, your body continues to pack
                                     unwanted fat and doesn’t burn existing fat in a faster manner.</p>
                                 <p>By introducing good bacteria in the gut, BioFit will be improving your metabolism and
                                     thus helping you gain more from dieting and exercises.</p>
-                                <hr class="hr">
-                                <p>BioFit is an all-natural supplement that is known to enhance and balance good bacteria in
-                                    the gut area. To lose weight, you need to have a balanced hormones and body processes.
-                                    Many times, people struggle with weight loss because their gut health has issues.</p>
-                                <p>Your gut health is important, especially when it comes to digestion and boosting immune
-                                    system. If it becomes unhealthy or start leaking, you will definitely struggle to lose
-                                    weight. It doesn’t matter how much you work out or diet, you will struggle with fitness
+                                <div class="hr"></div>
+                                <p>BioFit is an all-natural supplement that is known to enhance and balance good
+                                    bacteria in
+                                    the gut area. To lose weight, you need to have a balanced hormones and body
+                                    processes.
+                                    Many times, people struggle with weight loss because their gut health has issues.
+                                </p>
+                                <p>Your gut health is important, especially when it comes to digestion and boosting
+                                    immune
+                                    system. If it becomes unhealthy or start leaking, you will definitely struggle to
+                                    lose
+                                    weight. It doesn’t matter how much you work out or diet, you will struggle with
+                                    fitness
                                     levels if your gut is not healthy.</p>
                                 <p>Your gut health relies on the good bacteria to boost metabolism, stabilize the immune
-                                    system, balance hormones, and stabilize your mood. This means, when it is not in order,
+                                    system, balance hormones, and stabilize your mood. This means, when it is not in
+                                    order,
                                     many body processes will be greatly affected.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-               
+
             </div>
         </section>
 
@@ -175,9 +186,12 @@
 
                             <p>Special Discount For Over 90% Today + Free Shipping!</p>
 
-                            <button class="buy-btn"
-                                onclick="location.href='https://www.review.nutrafreash.com/click/1?ns=c%3D6ea43942-f241-45a5-a114-0d55bc268e5b..l%3Dd9c72155-c575-4dea-b3d6-3bbca1e089b9..a%3D0..b%3D0'">Biofit
-                                Supplement Official Website</button>
+                            
+                            <div class="buy-btn-wrapper">
+                                <a class="buy-btn" href="https://www.review.nutrafreash.com/click/1?ns=c%3D6ea43942-f241-45a5-a114-0d55bc268e5b..l%3Dd9c72155-c575-4dea-b3d6-3bbca1e089b9..a%3D0..b%3D0"> Biofit
+                                    Supplement Official Website <i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                                 
                         </div>
                     </div>
                 </div>
@@ -358,7 +372,17 @@
                                 <div class="order-image">
                                     <img src="image/1.png" alt="1" srcset="">
                                 </div>
-                                <div class="order-btn-wrapper">
+                                <div class="buying-information">
+                                    <h5>Free Shipping</h5>
+                                    <h5>1 Bottle</h5>
+                                </div>
+                                <div class="buy-btn">
+                                    <a  href="https://www.review.nutrafreash.com/click/1?bemobdata=c%3Dcfa0dc56-e4a1-4b1b-836f-22f2f1976727..l%3D9afc2535-6afb-4bbc-aea3-f1a1d1972b19..a%3D0..b%3D0..r%3Dhttps%253A%252F%252Freviewairs.com%252F" class="btn animate__animated animate__swing animate__infinite animate__slow">Buy Now</a>
+                                </div>
+                                <div class="buy-image">
+                                    <img class="img-fluid" src="image/payment_intro.png" alt="payment" srcset="">
+                                </div>
+                                <!-- <div class="order-btn-wrapper">
                                     <button class="order-btn">BUY NOW</button>
                                     <img src="image/payment_intro.png" alt="payment" srcset="">
                                 </div>
@@ -369,10 +393,11 @@
                                     <div class="current-new-price">
                                         <h3>$69</h3>
                                     </div>
-                                </div>
-                                <div class="shipping">
+                                </div> -->
+                                <!-- <div class="shipping">
                                     <h3><i class="fas fa-truck"></i> SHIPPING: <span>FREE</span></h3>
-                                </div>
+                                </div> -->
+                                
 
                             </div>
                         </div>
@@ -380,7 +405,7 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="order-box">
                             <div class="box-header highlight-header">
-                                <h2>Basic - 1 Bottle</h2>
+                                <h2>Best Value! - 6 Bottle</h2>
                             </div>
                             <div class="box-body">
                                 <div class="price">
@@ -390,13 +415,24 @@
                                     </div>
                                     <div class="today">
                                         <h4>TODAY</h4>
-                                        <span>$69 <p>per <br> bottle</p></span>
+                                        <span>$49 <p>per <br> bottle</p></span>
                                     </div>
                                 </div>
                                 <div class="order-image">
                                     <img src="image/6-bottles.png" alt="1" srcset="">
                                 </div>
-                                <div class="order-btn-wrapper">
+                                <div class="buying-information">
+                                    <h5>Free Shipping</h5>
+                                    <h5>6 Bottle</h5>
+                                    <h5>55% Discount</h5>
+                                </div>
+                                <div class="buy-btn">
+                                    <a  href="https://www.review.nutrafreash.com/click/1?bemobdata=c%3Dcfa0dc56-e4a1-4b1b-836f-22f2f1976727..l%3D9afc2535-6afb-4bbc-aea3-f1a1d1972b19..a%3D0..b%3D0..r%3Dhttps%253A%252F%252Freviewairs.com%252F" class="btn animate__animated animate__swing animate__infinite animate__slow">Buy Now</a>
+                                </div>
+                                <div class="buy-image">
+                                    <img class="img-fluid" src="image/payment_intro.png" alt="payment" srcset="">
+                                </div>
+                                <!-- <div class="order-btn-wrapper">
                                     <button class="order-btn">BUY NOW</button>
                                     <img src="image/payment_intro.png" alt="payment" srcset="">
                                 </div>
@@ -407,18 +443,18 @@
                                     <div class="current-new-price">
                                         <h3>$69</h3>
                                     </div>
-                                </div>
-                                <div class="shipping">
+                                </div> -->
+                                <!-- <div class="shipping">
                                     <h3><i class="fas fa-truck"></i> SHIPPING: <span>FREE</span></h3>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 ">
-                        <div class="order-box">
+                        <div class="order-box last-box">
                             <div class="box-header">
-                                <h2>Basic - 1 Bottle</h2>
+                                <h2>Popular - 3 Bottle</h2>
                             </div>
                             <div class="box-body">
                                 <div class="price">
@@ -428,13 +464,23 @@
                                     </div>
                                     <div class="today">
                                         <h4>TODAY</h4>
-                                        <span>$69 <p>per <br> bottle</p></span>
+                                        <span>$59 <p>per <br> bottle</p></span>
                                     </div>
                                 </div>
                                 <div class="order-image">
                                     <img src="image/3-bottles.png" alt="1" srcset="">
                                 </div>
-                                <div class="order-btn-wrapper">
+                                <div class="buying-information">
+                                    <h5>Free Shipping</h5>
+                                    <h5>3 Bottle</h5>
+                                </div>
+                                <div class="buy-btn">
+                                    <a  href="https://www.review.nutrafreash.com/click/1?bemobdata=c%3Dcfa0dc56-e4a1-4b1b-836f-22f2f1976727..l%3D9afc2535-6afb-4bbc-aea3-f1a1d1972b19..a%3D0..b%3D0..r%3Dhttps%253A%252F%252Freviewairs.com%252F" class="btn animate__animated animate__swing animate__infinite animate__slow">Buy Now</a>
+                                </div>
+                                <div class="buy-image">
+                                    <img class="img-fluid" src="image/payment_intro.png" alt="payment" srcset="">
+                                </div>
+                                <!-- <div class="order-btn-wrapper">
                                     <button class="order-btn">BUY NOW</button>
                                     <img src="image/payment_intro.png" alt="payment" srcset="">
                                 </div>
@@ -445,14 +491,35 @@
                                     <div class="current-new-price">
                                         <h3>$69</h3>
                                     </div>
-                                </div>
-                                <div class="shipping">
+                                </div> -->
+                                <!-- <div class="shipping">
                                     <h3><i class="fas fa-truck"></i> SHIPPING: <span>FREE</span></h3>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="counter">
+            <div class="header-timer-title">
+                <h2><span>Hurry Up!</span><br> Offer Expires in:</h2>
+            </div>
+
+            <div class="timer">
+                <div class="hour">
+                    <h2>19</h2>
+                    <p>HOUR</p>
+                </div>
+                <div class="minute">
+                    <h2>13</h2>
+                    <p>MINUTE</p>
+                </div>
+                <div class="second">
+                    <h2>53</h2>
+                    <p>SECOND</p>
                 </div>
             </div>
         </section>
@@ -468,8 +535,11 @@
                             <li><a href="#">Privacy</a></li>
                             <li><a href="#">Disclaimer</a></li>
                             <li><a href="#">Contact</a></li>
-                      
+
                         </ul>
+                    </div>
+                    <div class="payment-method">
+                        <img class="img-fluid" src="image/payment_intro.png" alt="Payment" srcset="">
                     </div>
                     <div class="copyrights">
                         <p>© Copyright 2021 Deshibazzarbd.com All Rights Reserved.</p>
@@ -481,9 +551,15 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 

@@ -54,3 +54,34 @@ const countDownClock = (number = 100, format = 'seconds') => {
     days, hours, minutes or seconds
   */
   countDownClock(20, 'hours');
+
+  $(document).ready(function() {
+    
+
+	var countdown = 30 * 60 * 1000;
+	var timerId = setInterval(function(){
+	  countdown -= 1000;
+	  var min = Math.floor(countdown / (60 * 1000));
+	  var sec = Math.floor((countdown - (min * 60 * 1000)) / 1000);
+	  if (countdown <= 0) {
+	     clearInterval(timerId);
+	  } else {
+        if (min < 10) {
+            $('.minute h2').text("0" + min)
+        } else {
+            $('.minute h2').text(min)
+        }
+        if (sec < 10) {
+            $('.second h2').text("0" + sec)
+        } else {
+            $('.second h2').text(sec)
+        }
+	  }
+	}, 1000);
+
+	
+
+
+
+   
+});
