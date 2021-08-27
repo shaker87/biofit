@@ -49,36 +49,3 @@
 
 /* Only for menu */
 
-@media only screen and (min-width:768px) {
-    .header {
-        padding: 10px 100px;
-    }
-    .header .logo img {
-        max-width: 160px;
-        margin: 0px;
-    }
-    .header .menu a {
-        all: unset;
-    }
-    .header .menu {
-        all: unset;
-        float: right;
-        padding-top: 5px;
-    }
-    .header ul li {
-        list-style: none;
-        display: inline-block;
-    }
-    .header ul li {
-        color: #000;
-        font-size: 18px;
-        margin-right: 20px;
-        cursor: pointer;
-    }
-    .header .menu a:hover {
-        background: transparent;
-    }
-    .header .menu-icon {
-        display: none;
-    }
-}

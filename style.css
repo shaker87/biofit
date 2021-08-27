@@ -62,9 +62,16 @@ a:hover {
     padding: 0;
 }
 
+.header::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .header .logo img {
     width: 160px;
     margin: 20px;
+    z-index: 999999;
 }
 
 .header ul {
@@ -182,6 +189,42 @@ a:hover {
     /* background: linear-gradient(left, right
 
     , #fcc700 0%,#fff000 100%); */
+}
+
+
+
+@media only screen and (min-width:768px) {
+    .header {
+        padding: 10px 100px;
+    }
+    .header .logo img {
+        max-width: 160px;
+        margin: 0px;
+    }
+    .header .menu a {
+        all: unset;
+    }
+    .header .menu {
+        all: unset;
+        float: right;
+        padding-top: 5px;
+    }
+    .header ul li {
+        list-style: none;
+        display: inline-block;
+    }
+    .header ul li {
+        color: #000;
+        font-size: 18px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .header .menu a:hover {
+        background: transparent;
+    }
+    .header .menu-icon {
+        display: none;
+    }
 }
 
 /* header navbar end here */
