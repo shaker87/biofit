@@ -14,19 +14,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="css/responsive.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
 </head>
 
 <body>
- 
-
     <header class="header">
-        <a class="logo" href="/"><img src="image/logo.png" alt="" srcset=""></a>
+        <a class="logo" href="#"><img src="image/logo.png" class="img-fluid" alt=""></a>
         <input type="checkbox" id="menu-btn" class="menu-btn">
         <label class="menu-icon" for="menu-btn">
             <span class="nav-icon"></span>
@@ -34,9 +32,10 @@
         <ul class="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#what-is-biofit">About</a></li>
-            <li><a href="#how-works">How it Works?</a></li>
+            <li><a href="#how-works">How It Works</a></li>
             <li><a href="#ingredients">Ingredients</a></li>
-            <li><a href="#order-now"><button class="order-now-btn">Order Now</button></a></li>
+
+            <li><button onclick="location.href='#order-now';" class="btn_one">Buy Now</button></li>
         </ul>
     </header>
     <main>
@@ -46,7 +45,7 @@
                     <div class="col-md-6 col-xs-12">
                         <div class="header-content-left">
                             <div class="header-image">
-                                <img class="img-fluid" src="image/bottles-header.png" alt="Header Bottle">
+                                <img class="img-fluid" src="image/header-bottles.png" alt="Header Bottle">
                             </div>
 
                             <div class="header-timer-title">
@@ -71,11 +70,14 @@
                     </div>
                     <div class="col-md-6 col-xs-12">
                         <div class="header-content-right">
-                            <h2>Attention! Get Special 84% Discount Today</h2>
+                            <h1>Advanced <span>Biofit Supplement</span> <br> Special Deal
+                                <br> Save $99+ Special 90%
+                                Off
+                            </h1>
                             <ul>
-                                <li><i class="fas fa-check"></i> Support Healthy Metabolism</li>
-                                <li><i class="fas fa-check"></i> Promote Natural Weight Loss</li>
-                                <li><i class="fas fa-check"></i> Improve Joint Mobility</li>
+                                <li><i class="fas fa-check"></i> Support Healthy Metabolism.</li>
+                                <li><i class="fas fa-check"></i> Promote Natural Weight Loss.</li>
+                                <li><i class="fas fa-check"></i> Improve Joint Mobility.</li>
                             </ul>
 
                             <div class="header-buying">
@@ -84,8 +86,7 @@
 
                                 <div class="btn-wrapper">
                                     <a class="btn animate__animated animate__swing animate__infinite animate__slow"
-                                        href="https://www.review.nutrafreash.com/click/1?bemobdata=c%3D6ea43942-f241-45a5-a114-0d55bc268e5b..l%3Dd69184e7-a376-4fa2-8326-4a3d1afcdfcd..a%3D0..b%3D0..r%3Dhttps%253A%252F%252Fnutrafreash.com%252F"
-                                        target="_blank"> Buy Now</a>
+                                        href="#" target="_blank"> Buy Now</a>
                                 </div>
                                 <img class="img-fluid" src="image/payment_intro.png" alt="Payment">
                             </div>
@@ -95,92 +96,156 @@
             </div>
         </section>
 
+
         <section id="what-is-biofit" class="what-is">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="what-is-header">
-                            <h2>What Is Biofit Supplement?</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="what-is-header text-center">
+                                <h2>What is <span class="highlight-text">Biofit Supplement?</span></h2>
+                            </div>
                         </div>
                     </div>
-
-
-                </div>
-
-                <div class="row">
                     <div class="col-md-5">
                         <div class="what-left-content">
-                            <img class="img-fluid" src="image/what.png" alt="What" srcset="">
+                            <!-- <img class="img-fluid" src="image/what.png" alt="What" srcset=""> -->
+                            <div class="what-img">
+                                <img class="img-fluid" src="image/what.png" alt="What" srcset="">
+                                <a href="https://www.youtube.com/" target="_blank"><i
+                                        class="fas fa-play flash player"></i> </a>
+                            </div>
+
+                            <div class="view-link">
+                                <a href="https://www.youtube.com/" target="_blank">Click Here To Watch CeraCare™ Full
+                                    Reviews</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-7">
                         <div class="what-right-content">
 
+
                             <p>BioFit is an all-natural supplement that is known to enhance and balance good bacteria in
-                                the gut area. To lose weight, you need to
-                                have a balanced hormones and body processes. Many times, people
-                                struggle with weight loss because their gut health has issues.</p>
+                                the gut area. To lose weight, you need to have a balanced hormones and body processes.
+                                Many times, people struggle with weight loss because their gut health has issues.
+
+                            <p> Your gut health is important, especially when it comes to digestion and boosting immune
+                                system. If it becomes unhealthy or start leaking, you will definitely struggle to lose
+                                weight. It doesn’t matter how much you work out or diet, you will struggle with fitness
+                                levels if your gut is not healthy.</p>
+                            <p>Your gut health relies on the good bacteria to boost metabolism, stabilize the immune
+                                system, balance hormones, and stabilize your mood. This means, when it is not in order,
+                                many body processes will be greatly affected.</p>
+
+                            <div class="play-video-btn">
+                                <a class="play-btn" href="https://www.youtube.com/" target="_blank">See Video <span><i
+                                            class="fas fa-play"></i> </span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="how-works-area" id="how-works">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="how-suppliment-work">
+                            <h2>How Does <span class="highlight-text">Biofit Supplement </span>Works?</h2>
+                            <p>Different weight loss supplements have varying approaches to how they help people lose
+                                weight. BioFit pills contain all-natural ingredients with good bacteria to help balance
+                                off processes in the body. </p>
+                            <p>The main reason your gut health is important in weight loss is because it controls
+                                digestion and metabolism. When your metabolism is slow, your body continues to pack
+                                unwanted fat and doesn’t burn existing fat in a faster manner.</p>
+                            <p>By introducing good bacteria in the gut, BioFit will be improving your metabolism and
+                                thus helping you gain more from dieting and exercises.</p>
+                            <p>BioFit is an all-natural supplement that is known to enhance and balance good bacteria in
+                                the gut area. To lose weight, you need to have a balanced hormones and body processes.
+                                Many times, people struggle with weight loss because their gut health has issues.</p>
                             <p>Your gut health is important, especially when it comes to digestion and boosting immune
                                 system. If it becomes unhealthy or start leaking, you will definitely struggle to lose
-                                weight. It doesn’t matter how much you work out or diet, you will
-                                struggle with fitness levels if your gut is not healthy.</p>
+                                weight. It doesn’t matter how much you work out or diet, you will struggle with fitness
+                                levels if your gut is not healthy.</p>
                             <p>Your gut health relies on the good bacteria to boost metabolism, stabilize the immune
                                 system, balance hormones, and stabilize your mood. This means, when it is not in order,
                                 many body processes will be greatly affected.</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div id="how-works">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="how-suppliment-work">
-                                <h2>How Does Biofit Supplement Work?</h2>
-                                <p>Different weight loss supplements have varying approaches to how they help people
-                                    lose
-                                    weight. BioFit pills contain all-natural ingredients with good bacteria to help
-                                    balance
-                                    off processes in the body.</p>
-                                <p>The main reason your gut health is important in weight loss is because it controls
-                                    digestion and metabolism. When your metabolism is slow, your body continues to pack
-                                    unwanted fat and doesn’t burn existing fat in a faster manner.</p>
-                                <p>By introducing good bacteria in the gut, BioFit will be improving your metabolism and
-                                    thus helping you gain more from dieting and exercises.</p>
-                                <div class="hr"></div>
-                                <p>BioFit is an all-natural supplement that is known to enhance and balance good
-                                    bacteria in
-                                    the gut area. To lose weight, you need to have a balanced hormones and body
-                                    processes.
-                                    Many times, people struggle with weight loss because their gut health has issues.
-                                </p>
-                                <p>Your gut health is important, especially when it comes to digestion and boosting
-                                    immune
-                                    system. If it becomes unhealthy or start leaking, you will definitely struggle to
-                                    lose
-                                    weight. It doesn’t matter how much you work out or diet, you will struggle with
-                                    fitness
-                                    levels if your gut is not healthy.</p>
-                                <p>Your gut health relies on the good bacteria to boost metabolism, stabilize the immune
-                                    system, balance hormones, and stabilize your mood. This means, when it is not in
-                                    order,
-                                    many body processes will be greatly affected.</p>
-                            </div>
+        <section class="benefits">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>Advanced <span class="highlight-text">Biofit Supplement</span> Benefits</h2>
+                            <img class="title-img" src="image/title-bottom.svg" alt="tt">
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="benefit-content">
+                            <div class="benefit-content-box">
+                                <h5>Body Weight Management:</h5>
+                                <p>With the regular consumption of this supplement, users can expect to speed up their
+                                    metabolic activities. This means that the body starts burning fat at a rapid rate
+                                    instead of storing them at random places within the body. This eventually leads to
+                                    better weight management and a lowered risk of obesity.</p>
+                            </div>
+                            <div class="benefit-content-box">
+                                <h5>Better Digestive Health:</h5>
+                                <p>Biofit help individuals get over any imbalances in their gut microbiome and, in doing
+                                    so, they optimize all the digestive processes. Taking BioFit supplement, users can
+                                    enjoy a better digestive health free from issues like diarrhea, constipation,
+                                    stomach pain, etc.</p>
+                            </div>
 
+                            <div class="benefit-content-box">
+                                <h5>Improvement in immune System:</h5>
+                                <p>Daily intake of a Biofit probiotic supplement is expected to improve the immune
+                                    system. A better immune system will protect the body from several diseases. Biofit
+                                    probiotics will restore the normal gut flora that ultimately boosts the immune
+                                    system.
+                                </p>
+                            </div>
+
+                            <div class="benefit-content-box">
+                                <h5>Control Blood Cholesterol Level:</h5>
+                                <p>Biofit probiotic supplements are also helpful in controlling the blood cholesterol
+                                    level. Biofit causes a decrease in low density lipoprotein (LDL) levels and
+                                    increases the level of high density lipoproteins ( that are commonly called good
+                                    cholesterol for the body).
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="benefits-image">
+                            <img src="image/benefit-image.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
 
         <section class="where-to-buy">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="where-to-buy-img">
-                            <img src="image/bottles-header.png" alt="Bottle" srcset="">
+                            <img src="image/where.png" alt="Bottle" srcset="">
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-6">
                         <div class="where-to-buy-content">
                             <h2>Where to Buy <br>
                                 Biofit Supplement™?</h2>
@@ -190,10 +255,8 @@
 
 
                             <div class="buy-btn-wrapper">
-                                <a class="buy-btn"
-                                    href="https://www.review.nutrafreash.com/click/1?ns=c%3D6ea43942-f241-45a5-a114-0d55bc268e5b..l%3Dd9c72155-c575-4dea-b3d6-3bbca1e089b9..a%3D0..b%3D0">
-                                    Biofit
-                                    Supplement Official Website <i class="fas fa-shopping-cart"></i></a>
+                                <a class="btn " href="#">
+                                    Biofit Supplement Official Website <i class="fas fa-shopping-cart"></i></a>
                             </div>
 
                         </div>
@@ -203,92 +266,162 @@
 
         </section>
 
-        <section class="ingredients" id="ingredients">
+        <section class="advanced-keto-suppliments" id="ingredients">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="ingredient-title">
-                            <h2>Biofit Supplement Ingredients:</h2>
-                            <p>BioFit Probiotic is made from a natural blend of safe and effective ingredients that are
-                                known to help improve digestion and metabolism.</p>
+                        <div class="section-title">
+
+                            <h2>What Are The Ingredients In <span class="highlight-text"> Biofit Supplement?</span></h2>
+                            <img class="title-img" src="image/title-bottom.svg" alt="" srcset="">
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <ul class="ingredients-item">
-                            <li>Bacterium Lactis:</li>
-                            <p>This bacteria helps to cleanse the gut so that the good bacteria can increase in number
-                                of good bacteria. When your colon has a lot of toxins, there is a risk of you getting
-                                inflammation.</p>
 
-                            <li>Bacterium Longum:</li>
-                            <p>This ingredient deals with bad bacteria that are known to cause irritation and
-                                hypersensitivity. This helps you get healthier gut.</p>
-                            <li>Lactobacillus paracasei:</li>
-                            <p>This active ingredient has powerful antioxidants that flushes out toxins that affects
-                                your digestive system. This helps your body process foods at a faster rate.</p>
-                        </ul>
+
+                    <div class="col-md-6">
+                        <div class="advanced-keto-list">
+                            <div class="keto-box1">
+                                <div class="keto-img">
+                                    <img src="image/lactis.png" alt="" srcset="">
+                                </div>
+                                <div class="keto-content">
+                                    <h4>Bacterium Lactis:</h4>
+                                    <p> This bacteria helps to cleanse the gut so that the good bacteria can increase in
+                                        number of good bacteria. When your colon has a lot of toxins, there is a risk of
+                                        you getting inflammation.</p>
+                                </div>
+                            </div>
+                            <div class="keto-box1">
+                                <div class="keto-img">
+                                    <img src="image/longum.png" alt="" srcset="">
+                                </div>
+                                <div class="keto-content">
+                                    <h4>Bacterium Longum:</h4>
+
+                                    <p>This ingredient deals with bad bacteria that are known to cause irritation and
+                                        hypersensitivity. This helps you get healthier gut.
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="keto-box1">
+                                <div class="keto-img">
+                                    <img src="image/paracasei.png" alt="" srcset="">
+                                </div>
+                                <div class="keto-content">
+                                    <h4>Lactobacillus paracasei:</h4>
+                                    <p> This active ingredient has powerful antioxidants that flushes out toxins that
+                                        affects your digestive system. This helps your body process foods at a faster
+                                        rate.</p>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <ul class="ingredients-item">
-                            <li>Plantarum Lactobacillus</li>
-                            <p>Protects the gut from environmental damage and maintains intestinal permeability by
-                                acting as an antioxidant. It helps the body to get rid of bad bacteria that cause gas,
-                                diarrhea, and nausea are also destroyed by this beneficial strain.</p>
 
-                            <li>Bifidobacterium Breve:</li>
-                            <p>This bacteria strain, which is used in the BioFit weight loss supplement, improves immune
-                                modulation, making the body stronger and more active in the face of all threats. It also
-                                promotes the conversion of food into energy, which leads to healthy weight loss.
-                                Finally, it protects against age-related metabolic effects, sagging skin, and other
-                                signs of aging.</p>
-                        </ul>
+                    <div class="col-md-6">
+                        <div class="advanced-keto-list">
+                            <div class="keto-box1">
+                                <div class="keto-img">
+                                    <img src="image/lactobacillus.png" alt="" srcset="">
+                                </div>
+                                <div class="keto-content">
+                                    <h4>Plantarum Lactobacillus:</h4>
+                                    <p> Protects the gut from environmental damage and maintains intestinal permeability
+                                        by acting as an antioxidant. It helps the body to get rid of bad bacteria that
+                                        cause gas, diarrhea, and nausea are also destroyed by this beneficial strain.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="keto-box1">
+                                <div class="keto-img">
+                                    <img src="image/breve.png" alt="" srcset="">
+                                </div>
+                                <div class="keto-content">
+                                    <h4>Bifidobacterium Breve:</h4>
+                                    <p>This bacteria strain, which is used in the BioFit weight loss supplement,
+                                        improves immune modulation, making the body stronger and more active in the face
+                                        of all threats. It also promotes the conversion of food into energy, which leads
+                                        to healthy weight loss. Finally, it protects against age-related metabolic
+                                        effects, sagging skin, and other signs of aging.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <section class="pros-cons">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="ingredients-bottom-content box-1">
-                            <h2>How To Take Biofit Supplement?</h2>
-                            <p>To get best results, take one Biofit capsule on a daily basis. Over time, you’ll notice
-                                that those areas of stubborn fat will go away. But remember, Biofit isn’t a miracle
-                                pill. It won’t cause you to lose tons of fat overnight. Make sure not to overdose or
-                                under dose this supplement as this will mean you will not get the desired results. Also,
-                                integrate dieting and exercises into your routine. These will help you get better
-                                results.</p>
-                        </div>
+                    <div class="section-title mt-4">
+                        <h2><span class="highlight-text">Biofit Supplement </span>Pros & Cons</h2>
+                        <img class="title-img" src="image/title-bottom.svg" alt="tt">
 
-                        <div class="ingredients-bottom-content box-2">
-                            <h2>Biofit: Are There Any Side Effects?</h2>
-                            <p>There are also no Biofit side effects or negative complaints made. How Naturally,
-                                something that promises to help you drop upwards of 70 pounds in a brief period of time
-                                could seem dubious and dangerous. But BioFit weight loss probiotic tablets, though, you
-                                won’t have to worry about that.</p>
-                            <p>BioFit is a weight reduction probiotic supplement that has undergone extensive research
-                                to ensure consumer wellbeing and reliability. Since these pills are made in an FDA (The
-                                United States Food and Drug Administration) approved and GMP (Good Manufacturing
-                                Practices) certified factory, you can be certain that all protection and security
-                                procedures are followed. For added protection, the pills have indeed been individually
-                                validated by NSF.</p>
-                        </div>
-                        <div class="ingredients-bottom-content box-3">
-                            <h2>BioFit Customer Reviews and Feedbacks :</h2>
-                            <p>Millions of people have used BioFit probiotic for weight loss. Some users were able to
-                                lose more than 40 pounds which is a huge success, without following any fad diet,
-                                surgery, or hiring a fitness trainer.</p>
-                            <p>If you see the feedback and reviews from BioFit consumers, it would seem that this
-                                dietary supplement is effective. Good comments and reports about people losing large
-                                amounts of weight by taking these pills feature in the reviews.</p>
-                            <p>Based on these reviews, it is evident that the time required for this supplement to show
-                                results varies for every user. Some people who are more obese may lose faster than a
-                                person who is only a few pounds over his healthy weight. The BioFit website recommends
-                                using these pills for three to six months for a complete transformation. And if a person
-                                still finds himself obese, there is no harm to continue using these pills after six
-                                months. Being a herbal formula, there are no reasons for it to go wrong even after
-                                long-term usage.</p>
+                    </div>
+                    <p>Based on customer reviews and journal publications, I will present to you <br> the merits
+                        and
+                        demerits of this supplement from an independent standpoint.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+
+                        <div class="benefit-content">
+                            <h4>Pros:</h4>
+                            <ul>
+                                <li>The supplement is vegan-friendly as the
+                                    ingredient used does not contain any substances of
+                                    dairy, meat, or egg.</li>
+                                <li>It guarantees to provide a long-lasting result
+                                    that stops the recurrence of obesity.</li>
+                                <li>You need not worry about any kind of side
+                                    effects as the capsules are free from all kinds of
+                                    toxicity.</li>
+                                <li>You need not go through terrible diet or
+                                    extreme workout routines when you follow the
+                                    supplement course.</li>
+                                <li>Improves your gut health by producing good
+                                    bacteria.</li>
+                                <li>The supplements come with great offers and
+                                    discounts that help you easily purchase them. They
+                                    also provide a money-back guarantee that ensures
+                                    'you that your money won't go down the drain if you
+                                    are unhappy with the supplement.</li>
+
+
+                            </ul>
+
+                            <h4>Cons:</h4>
+                            <ul>
+                                <li>Have no supplies in offline stores (beware of fraud if you see anybody selling with
+                                    the same label).
+                                </li>
+                                <li>It has to be kept dry and spill no water inside the bottle, which might cause to
+                                    diminish its nutritional properties.
+                                </li>
+                                <li>More costly than other oral supplements.</li>
+
+                            </ul>
                         </div>
                     </div>
+
+                    <div class="col-md-5 py-0 my-0">
+                        <div class="advanced-keto-suppliment-left">
+                            <img src="image/really-work.png" alt="" srcset="">
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </section>
@@ -298,7 +431,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="why-choose-title">
-                            <h2>Why Choose Biofit Supplement?</h2>
+                            <h2>Why Choose <span> Biofit Supplement?</span></h2>
                         </div>
                     </div>
                 </div>
@@ -321,20 +454,111 @@
                     <div class="col-md-3">
                         <div class="why-choose-item-box">
                             <img class="img-fluid" src="image/why3.png" alt="Why3" srcset="">
-                            <h3>FREE Shipping</h3>
-                            <p>You don’t pay for anything else but the product.</p>
+                            <h3>Fully Natural</h3>
+                            <p>All ingredients can be found in the wild nature.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="why-choose-item-box">
                             <img class="img-fluid" src="image/why4.png" alt="Why 4" srcset="">
-                            <h3>No GMO</h3>
-                            <p>Vegan-friendly, gluten-free, and non-GMO.</p>
+                            <h3>FREE Shipping</h3>
+                            <p>You don’t pay for anything else but the product.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="single-package">
+            <div class="container">
+                <div class="row package-bg">
+                    <div class="col-md-4">
+                        <img src="image/single-pack.png" alt="6-bottles" srcset="">
+                    </div>
+                    <div class="col-md-5">
+                        <div class="buy-section">
+                            <h2>Attention! Get Special 55% <br> Discount Today</h2>
+                            <div class="single-buy-btn">
+                                <a href="#"
+                                    class="btn animate__animated animate__swing animate__infinite animate__slow">Buy
+                                    Now!</a>
+                            </div>
+                            <div class="payment-image">
+                                <img class="single-pack-img" src="image/payment_intro.png" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="price-section">
+                            <div class="buy_solo_price_new">
+                                <h2><span><strike>$99</strike></span> $49</h2>
+                            </div>
+
+                            <h3>Offer Expires in</h3>
+                            <div class="single-timer">
+                                <div class="hour">
+                                    <div class="shours"></div>
+                                    <p>HOUR</p>
+                                </div>
+                                <div class="minute">
+                                    <div class="sminutes"></div>
+                                    <p>MINUTE</p>
+                                </div>
+                                <div class="second">
+                                    <div class="sseconds"></div>
+                                    <p>SECOND</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="side-effect">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section-title">
+                            <h2>Advanced <span class="highlight-text">Biofit Supplement™</span> Side Effects</h2>
+                            <img class="title-img" src="image/title-bottom.svg" alt="tt">
+                        </div>
+                        <div class="content">
+                            <p>As Biofit Supplement™ is a fully natural nutritional supplement, there’s no known side
+                                effects of
+                                it. It’s 100% safe.</p>
+                            <p>Having said that, it’s not the cheapest supplement out there. Having said that, the short
+                                storage time is strictly maintained here and it’s always made sure that this supplement
+                                is stored properly so that the quality doesn’t deteriorate at all. So it’s a fair deal.
+                            </p>
+                            <p>But we always recommend please consult with your doctor or physician before take any
+                                supplement</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-title">
+
+                            <h2>Is Advanced <span class="highlight-text">Biofit Supplement™</span> Safe?</h2>
+                            <img class="title-img" src="image/title-bottom.svg" alt="tt">
+                        </div>
+                        <div class="content">
+                            <p>Biofit Supplement™ is 100% natural, safe and effective. Thousands of people enjoy taking
+                                Biofit Supplement™
+                                every day and we have not received one complaint about side effects.</p>
+                            <p>Every capsule is manufactured here in the USA in a state-of-the-art FDA approved and GMP
+                                (Good Manufacturing Practices) certified facility.
+                            </p>
+                            <p>This means we use the most sterile, strict and precise standards. Each capsule is 100%
+                                natural, vegetarian and non-GMO. If you have a medical condition you should always
+                                consult with your doctor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <section class="money-back-guarantee">
             <div class="container">
                 <div class="row">
@@ -348,6 +572,53 @@
                                 know and claim your money back!</p>
                             <p>Consider this a 2-month test run. If you don’t like it - get your investment back! Order
                                 now to secure your 60 Day Money Back Guarantee with Biofit Supplement.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimionals">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="testimional-title">
+                            <h2>Testimonial
+                            </h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimional-box">
+                            <img class="user" src="image/t1.png" alt="">
+                            <span>Spencer Ball</span>
+
+                            <p>I tried many diets and programs before I found biofit supplement. And it turns out that stress
+                                really was the main damaging factor! I can see what the formula does already, even
+                                though I've been using it for just 2 weeks!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimional-box">
+                            <img class="user" src="image/t2.png" alt="">
+                            <span>Lauren Hunt</span>
+
+                            <p>Robert's formula is a God's gift! I lost all hope trying to find something that would
+                                help me. But in a last desperate attempt I ordered biofit supplement and it was the best
+                                decision I've made in a long time!!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimional-box">
+                            <img class="user" src="image/t3.png" alt="">
+                            <span>Walter Lowe</span>
+
+                            <p>This formula is just incredible! I always knew that the Japanese knew something about
+                                remedies but this just exceeds every expectation! It's simple to use and I am making a
+                                very good progress right now!</p>
                         </div>
                     </div>
                 </div>
@@ -381,28 +652,14 @@
                                     <h5>1 Bottle</h5>
                                 </div>
                                 <div class="box-buy-btn">
-                                    <a href="https://www.review.nutrafreash.com/click/1?bemobdata=c%3Dcfa0dc56-e4a1-4b1b-836f-22f2f1976727..l%3D9afc2535-6afb-4bbc-aea3-f1a1d1972b19..a%3D0..b%3D0..r%3Dhttps%253A%252F%252Freviewairs.com%252F"
+                                    <a href="#"
                                         class="btn animate__animated animate__swing animate__infinite animate__slow">Buy
                                         Now</a>
                                 </div>
                                 <div class="buy-image">
                                     <img class="img-fluid" src="image/payment_intro.png" alt="payment" srcset="">
                                 </div>
-                                <!-- <div class="order-btn-wrapper">
-                                    <button class="order-btn">BUY NOW</button>
-                                    <img src="image/payment_intro.png" alt="payment" srcset="">
-                                </div>
-                                <div class="new-price">
-                                    <div class="old-price">
-                                        <h3><strike><span>$149</span></strike></h3>
-                                    </div>
-                                    <div class="current-new-price">
-                                        <h3>$69</h3>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="shipping">
-                                    <h3><i class="fas fa-truck"></i> SHIPPING: <span>FREE</span></h3>
-                                </div> -->
+
 
 
                             </div>
@@ -425,36 +682,21 @@
                                     </div>
                                 </div>
                                 <div class="order-image">
-                                    <img src="image/6-bottles.png" alt="1" srcset="">
+                                    <img src="image/6.png" alt="1" srcset="">
                                 </div>
                                 <div class="buying-information">
                                     <h5>Free Shipping</h5>
                                     <h5>6 Bottle</h5>
-                                    <h5>55% Discount</h5>
+                                    <h5>90% Discount</h5>
                                 </div>
                                 <div class="box-buy-btn">
-                                    <a href="https://www.review.nutrafreash.com/click/1?bemobdata=c%3Dcfa0dc56-e4a1-4b1b-836f-22f2f1976727..l%3D9afc2535-6afb-4bbc-aea3-f1a1d1972b19..a%3D0..b%3D0..r%3Dhttps%253A%252F%252Freviewairs.com%252F"
+                                    <a href="#"
                                         class="btn animate__animated animate__swing animate__infinite animate__slow">Buy
                                         Now</a>
                                 </div>
                                 <div class="buy-image">
                                     <img class="img-fluid" src="image/payment_intro.png" alt="payment" srcset="">
                                 </div>
-                                <!-- <div class="order-btn-wrapper">
-                                    <button class="order-btn">BUY NOW</button>
-                                    <img src="image/payment_intro.png" alt="payment" srcset="">
-                                </div>
-                                <div class="new-price">
-                                    <div class="old-price">
-                                        <h3><strike><span>$149</span></strike></h3>
-                                    </div>
-                                    <div class="current-new-price">
-                                        <h3>$69</h3>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="shipping">
-                                    <h3><i class="fas fa-truck"></i> SHIPPING: <span>FREE</span></h3>
-                                </div> -->
 
                             </div>
                         </div>
@@ -476,36 +718,139 @@
                                     </div>
                                 </div>
                                 <div class="order-image">
-                                    <img src="image/3-bottles.png" alt="1" srcset="">
+                                    <img src="image/3.png" alt="1" srcset="">
                                 </div>
                                 <div class="buying-information">
                                     <h5>Free Shipping</h5>
                                     <h5>3 Bottle</h5>
                                 </div>
                                 <div class="box-buy-btn">
-                                    <a href="https://www.review.nutrafreash.com/click/1?bemobdata=c%3Dcfa0dc56-e4a1-4b1b-836f-22f2f1976727..l%3D9afc2535-6afb-4bbc-aea3-f1a1d1972b19..a%3D0..b%3D0..r%3Dhttps%253A%252F%252Freviewairs.com%252F"
+                                    <a href="#"
                                         class="btn animate__animated animate__swing animate__infinite animate__slow">Buy
                                         Now</a>
                                 </div>
                                 <div class="buy-image">
                                     <img class="img-fluid" src="image/payment_intro.png" alt="payment" srcset="">
                                 </div>
-                                <!-- <div class="order-btn-wrapper">
-                                    <button class="order-btn">BUY NOW</button>
-                                    <img src="image/payment_intro.png" alt="payment" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ask-question">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h2>Some Frequently Asked <span class="highlight-text">Question</span></h2>
+                            <img class="title-img" src="image/title-bottom.svg" alt="tt">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="accordian-box">
+                            <div class="accordian-box-item">
+                                <button class="accordion">How do you use biofit supplement for fitness?</button>
+                                <div class="panel">
+                                    <p><strong>Answer:</strong> You only have to take two biofit supplement capsules per
+                                        day as per the direction with a glass of water. However, it is most effective if
+                                        you take 1 of them at night before going to sleep.
+                                    </p>
                                 </div>
-                                <div class="new-price">
-                                    <div class="old-price">
-                                        <h3><strike><span>$149</span></strike></h3>
-                                    </div>
-                                    <div class="current-new-price">
-                                        <h3>$69</h3>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="shipping">
-                                    <h3><i class="fas fa-truck"></i> SHIPPING: <span>FREE</span></h3>
-                                </div> -->
+                            </div>
 
+                            <div class="accordian-box-item">
+                                <button class="accordion">Does biofit supplement really work?</button>
+                                <div class="panel">
+                                    <p><strong>Answer.</strong> It is a clinically proven supplement and tested on real
+                                        human subjects with dental issues. Only after the success of the test, it
+                                        started selling. The customer reviews are also positive and reliable, so it is
+                                        not a hoax.</p>
+                                </div>
+                            </div>
+                            <div class="accordian-box-item">
+                                <button class="accordion">Is biofit supplement FDA approved?</button>
+                                <div class="panel">
+                                    <p><strong>Answer.</strong> No. However, it is manufactured in an FDA-certified facility that adheres to the strict manufacturing policy.</p>
+                                </div>
+                            </div>
+                            <div class="accordian-box-item">
+                                <button class="accordion">What if biofit supplement doesn't work for me?</button>
+                                <div class="panel">
+                                    <p><strong>Answer.</strong> Demand you are enthusiastic with your purchase, not just satisfied. So I’m not only going to promise life changing results, I’m going to guarantee them. You can try biofit supplement today for 60 days, with a no questions asked 100% money back guarantee. This removes all the risk from you.</p>
+                                </div>
+                            </div>
+                            <div class="accordian-box-item">
+                                <button class="accordion">How to buy biofit supplement?</button>
+                                <div class="panel">
+                                    <p><strong>Answer.</strong> The safest place to buy it is from the official website, where there is no risk of scams or fraud.</p>
+                                </div>
+                            </div>
+                       
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-5">
+                        <div class="ask-question-img text-center">
+                            <img src="image/think.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="final-verdict">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2><span class="highlight-text">Biofit Supplement</span> Final Verdict</h2>
+                            <img class="title-img" src="image/title-bottom.svg" alt="tt">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="verdict-content">
+                            <p>If you are tired of all the difficult diets and workouts and the medications with
+                                unbearable side effects, then
+                                Biofit might well be the alternate solution you have been looking for. Thousand of users
+                                seem to have enjoyed
+                                positive benefits after taking this new advanced formula.</p>
+                            <p>As | have already mentioned in this BioFit Probiotic Supplement review, this unique
+                                supplement is considered
+                                to be highly effective as it contains Gut Biome that enriches your digestive system to
+                                quickly burn fat. It is all-
+                                natural, clinically tested to be safe, and is reported to have no side effects and
+                                unlike other weight loss
+                                supplements in the market that work to suppress symptoms, the BioFit formula works
+                                directly in the digestive
+                                tract, thus offering a long-term solution.</p>
+                            <p>Besides, the supplement comes with a 180-day, no-questions-asked, 100% money-back
+                                guarantee. There are
+                                zero risks involved and so BioFit is surely worth a try.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="where text-center">
+                            <h3>Where To Find It?</h3>
+
+
+                            <div class="direct-btn-wrapper">
+                                <a href="#" class="direct-buy-btn-1">You can BUY it directly from the Official Website
+                                    <i class="fas fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -515,49 +860,134 @@
 
         <section class="counter">
             <div class="header-timer-title">
-                <h2><span>Hurry Up!</span><br> Offer Expires in:</h2>
+                <h2>Hurry Up! <br><span class="highlight-text"> Offer Expires in:</span></h2>
             </div>
 
             <div class="timer">
                 <div class="hour">
-                    <h2>19</h2>
+                    <h2>4</h2>
                     <p>HOUR</p>
                 </div>
                 <div class="minute">
-                    <h2>13</h2>
+                    <h2>59</h2>
                     <p>MINUTE</p>
                 </div>
                 <div class="second">
-                    <h2>53</h2>
+                    <h2>59</h2>
                     <p>SECOND</p>
                 </div>
+            </div>
+
+            <div class="payment-method">
+                <img class="img-fluid" src="image/payment_intro.png" alt="Payment" srcset="">
             </div>
         </section>
 
     </main>
+
+
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 offset-md-2">
+                <div class="col-md-12">
+                    <p class="top-text">
+                        © 2021 Reviewairs.Com All Rights Reserved
+                    </p>
+                    <p class="middle-text">
+                        *These statements have not been evaluated by the Food and Drug Administration. This product is
+                        not intended to diagnose, treat, cure or prevent any disease. Consult your physician before
+                        starting any diet, exercise, or supplement program to avoid any health issues.
+                    </p>
                     <div class="footer-menu">
                         <ul>
-                            <li><a href="#">TOS</a></li>
-                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Shipping & Refund Policy</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & condition</a></li>
                             <li><a href="#">Disclaimer</a></li>
-                            <li><a href="#">Contact</a></li>
 
                         </ul>
                     </div>
-                    <div class="payment-method">
-                        <img class="img-fluid" src="image/payment_intro.png" alt="Payment" srcset="">
-                    </div>
-                    <div class="copyrights">
-                        <p>© Copyright 2021 Deshibazzarbd.com All Rights Reserved.</p>
+                    <div class="footer-img">
+                        <img src="image/footer-image.png" alt="" srcset="">
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
+
+    <div class="card-popup">
+        <div class="card-header">
+            <h1>10% OFF SPECIAL OFFER!</h1>
+            <i class="fas fa-times close"></i>
+        </div>
+
+        <div class="card-package-header">
+            <h4>6 Bottles</h4>
+            <p>180 Day Supply</p>
+        </div>
+        <div class="card-product">
+            <img class="img-fluid" src="image/popup/product.png" alt="product" srcset="">
+            <h6>10% <span>DISCOUNT</span></h6>
+        </div>
+
+        <div class="card-product-price">
+            <div class="price">
+                <h6>Discount Price <span>+ 10% Save</span></h6>
+            </div>
+        </div>
+
+
+        <div class="card-right-product-price">
+            <h2><strike>$294</strike> <span> $264 </span></h2>
+
+        </div>
+
+        <div class="card-right-minutes-left">
+            <p>Only in the next <span class="popup-timer"><span class="popup-minutes"></span>:<span
+                        class="popup-seconds"></span></span>
+                minutes...</p>
+
+        </div>
+
+
+        <div class="card-bottom">
+            <div class="purchase-btn-wrapper">
+                <a href="#" class="purchase-btn">YES! I WANT AN ADDITIONAL 10% OFF AND EXPRESS FREE
+                    SHIPPING</a>
+            </div>
+
+            <a class="current-page">Or Stay On Current Page</a>
+        </div>
+    </div>
+
+    <div class="bottom-popup-box">
+        <div class="bottom-popup-img">
+            <img src="image/secure-image.png" alt="" srcset="">
+        </div>
+    </div>
+
+
+    <div class="dialog-box">
+        <div class="dialog-header">
+            <a class="dialog-header-content" href="#" target="_blank"> <img class="logo-img"
+                    src="image/secure-image.png" alt="" srcset=""></a>
+
+                    <button type="button" id="cross" class="close-icon" aria-label="Close">×</button>
+            
+        </div>
+        <div class="dialog-body">
+            <div class="headline">ClickBank is the trusted retailer for Revitta Pro.</div>
+            <p>If you aren't completely satisfied with your purchase, let us know. We'll make it right. Your
+                satisfaction is guaranteed!</p>
+
+                
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
 
 
 
@@ -567,10 +997,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="js/index2.js"></script>
+
+
+    <script type="text/javascript">
+        function bemobCb(params) {
+            var t = params.trackingDomain + '/click/';
+            var re = new RegExp(t + '?(\\d*)');
+            var e = document.querySelectorAll('a[href*="' + t + '"]');
+            for (var i = 0; i < e.length; i++) {
+                var ex = re.exec(e[i].href);
+                if (ex) {
+                    e[i].href = params.ctaSecureUrl.replace('%%OFFER_NUMBER%%', ex[1] || 1);
+                }
+            }
+        }
+    </script>
+    <script
+        type="text/javascript">!function () { var a = document.createElement("script"); a.type = "text/javascript", a.async = !0, a.src = "https://www.review.nutrafreash.com/landing/2249e244-9c1e-4933-a804-61e39b61dcfc?callback=bemobCb&rule=1&path=1&landing=1&" + window.location.search.substring(1); var b = document.getElementsByTagName("script")[0]; b.parentNode.insertBefore(a, b) }();</script>
+    <noscript><img
+            src="https://www.review.nutrafreash.com/landing/2249e244-9c1e-4933-a804-61e39b61dcfc?rule=1&path=1&landing=1"
+            alt=""></noscript>
 </body>
 
 </html>
